@@ -1,4 +1,4 @@
 arr = [1,2,3,4,]
 nerr = [x * 2 for x in arr]
 print("Original array:", arr)
-print("New array", Newarr)
+print("New array", newarr)
