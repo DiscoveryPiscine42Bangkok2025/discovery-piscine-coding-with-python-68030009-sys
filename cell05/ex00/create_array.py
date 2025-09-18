@@ -1,2 +1,2 @@
-$> python3 create_array.py
-[2, 8, 9, 48, 8, 22, -12, 2]
+array = [1,2,3,4,]
+print(array)
