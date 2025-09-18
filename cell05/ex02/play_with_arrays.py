@@ -1,3 +1,4 @@
-$> python3 play_with_arrays.py
-[2, 8, 9, 48, 8, 22, -12, 2]
-[10, 11, 50, 10, 24]
+arr = [1,2,3,4,]
+newarr = [x * 2 for x in arr]
+print(Original array:, arr)
+print("New array", newarr)
