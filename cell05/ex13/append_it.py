@@ -1,11 +1,8 @@
 import sys
-import re
 
-args sys.argv[1:]
-
-if not args:
+if len(sys.argv) == 1:           
     print("none")
 else:
-    for word in args:
-        if not re.search(r'isms', word):
-            print (f"(word)ism")
+    for param in sys.argv[1:]:   
+        if not param.endswith("ism"):  
+            print(param + "ism")
