@@ -1,4 +1,6 @@
-$> python3 aff_first_param.py
-none
-$> python3 aff_first_param.py "Code Ninja" "Numerique" "42"
-Code Ninja
+import sys
+
+if len(sys.argv) > 1:
+    print(sys.argv[1])
+else:
+    print("none")
