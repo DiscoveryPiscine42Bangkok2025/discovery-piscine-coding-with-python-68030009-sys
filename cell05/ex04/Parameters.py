@@ -1,6 +1,5 @@
-$> python3 parameters.py
-Number of parameters: 0.
-$> python3 parameters.py "initiation"
-Number of parameters: 1.
-$> python3 parameters.py "this" "is" "crazy" "there's" "everywhere!"
-Number of parameters: 5.
+import sys
+
+count = len(sys.agrv) -1
+
+print("Number of parameters:", count, end='.\n'
