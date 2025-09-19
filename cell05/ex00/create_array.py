@@ -1,4 +1,3 @@
-arr = [1,2,3,4]
-newarr = [x * 2 for x in arr]
-print("Original array:", arr)
-print("New array", newarr)
+number = [2, 8, 9, 48, 8, 22, -12, 2]
+
+print(number)
