@@ -1,13 +1,14 @@
 import sys
 
-args sys.argv[1:]
-
-if len(args) 12:
+if len(sys.argv) != 3:
     print("none")
 else:
     try:
-        start int (args[0])
-        endint(args[1])
-        print(list(range(start, end + 1)))
+        num1 = int(sys.argv[1])
+        num2 = int(sys.argv[2])
     except ValueError:
         print("none")
+        sys.exit
+    
+    numbers = list(range(num1, num2 + 1))
+    print(numbers)
