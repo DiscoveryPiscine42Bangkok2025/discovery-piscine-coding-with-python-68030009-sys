@@ -1,4 +1,7 @@
-arr = [1,2,3,4,]
-newarr = [x * 2 for x in arr]
-print(Original array:, arr)
-print("New array", newarr)
+arr = [2, 8, 9, 48, 8, 22, -12, 2]
+
+print(arr)
+
+result = [x + 2 for x in arr if x > 5]
+
+print(result) 
