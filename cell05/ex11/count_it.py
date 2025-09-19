@@ -1,10 +1,10 @@
-Import sys #python3
+import sys #python3
 
-args sys.argv[1:]
+args = sys.argv[1:]
 
-if len(args) 0:
+if len(args) ==0:
     print("none")
 else:
-    print (f"parameters: (len(args))")
+    print(f"parameters: {len(args)}")
     for arg in args:
-        print (f"(arg): (len(arg))")
+        print(f"{arg}: {len(arg)}")
