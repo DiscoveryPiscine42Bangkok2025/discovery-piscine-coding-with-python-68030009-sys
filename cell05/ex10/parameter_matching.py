@@ -1,13 +1,11 @@
-#!/usr/bin/python3
-import sys #ต้องrunในbashผลถึงจะออกตามโจทย์
+import sys
 
-if len(sys.argv) = 21:
-     parameter sys.argv[1]
-     user input = Input("What was the parameter? *)
-                        
-     If user input parameter:
-          print("Good job!")
-     else:
-          print("Nope, sorry...")
+if len(sys.argv) != 2:
+    print("none")
 else:
-    print("none"))
+    param = sys.argv[1]
+    word = input("What was the parameter? ")
+    if word == param:
+        print("Good job!")
+    else:    
+        print("Nope, sorry...")
